@@ -102,10 +102,10 @@ header {
     z-index: 2;
 }
 header .logo img {
-    height: 50px;
+    height: 30px;
 }
 .kasper {
-    font-size: 3em;
+    font-size: 1.3em;
     font-family: cursive;
     font-weight: 1000;
     color: white;
@@ -135,7 +135,7 @@ header nav {
 }
 header nav .toggle-menu {
     color: white;
-    font-size: 22px;
+    font-size: 16px;
 }
 @media (min-width: 768px) {
     header nav .toggle-menu  {
@@ -187,7 +187,7 @@ header nav .form {
 header nav .form i {
     color:white;
     position: absolute;
-    font-size: 20px;
+    font-size: 16px;
     top: 50%;
     transform: translateY(-50%);
     right: 0;
@@ -209,7 +209,7 @@ header nav .form i {
     background-color: rgb(0 0 0 / 60%);
 }
 .landing .text {
-    position: absolute;
+  position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -226,6 +226,8 @@ header nav .form i {
 @media (max-width: 767px) {
     .landing .text {
     width: 100%;
+    position: relative;
+    transform: translateY(16%);
     }
     .landing .text .content {
         max-width: 100%;
@@ -275,7 +277,7 @@ header nav .form i {
   @media (max-width: 767px) {
     .landing .bullets {
     position: absolute;
-    left: 40%;
+    left: 38%;
     }
 }
   .landing .bullets li.active {
@@ -298,6 +300,9 @@ header nav .form i {
 }
 .services .srv-box {
     display: flex;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 10px;
+    border-radius: 10px;
 }
 @media (max-width: 767px) {
     .services .srv-box {
